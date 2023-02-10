@@ -1,0 +1,82 @@
+#my first python list
+# numbers = [43,43,54,32,23]
+# names = ("python","java","typesscript")
+# print(len (numbers))
+#get the length of my list
+# print(sum(numbers))
+#print(len(numbers))
+#get the length on my list
+# for i in range(len(numbers)):
+    # print(numbers[i])
+
+#LIST METHODS
+#index - gets the index of an element in a list    
+# numbers.index(23)
+# print(names.index("java"))
+# print(numbers.index(23))
+
+#Append - adds an element to the end of the list
+# for i in range(len(numbers)):
+    # print (numbers [i])
+    # numbers.append(90)
+    #after appending
+    # for i in range(len(numbers)):
+        # print (numbers[i])
+#sort - arrenges the listb in asscending order
+# for i in range (len(numbers)):
+    # print(numbers[i])
+    # numbers.sort()
+
+
+#add a line for formatted 
+#COUNT - returns the number oftimes an element occurs in a list
+# print(numbers.count(43))
+#pop - removes an element at a given indexand returns that element
+# print(numbers.pop(2))
+
+#insert-inserts an element x at an index y
+# numbers.insert(2,100)
+# for i in range(len(numbers)):
+    # print(numbers[i])
+#remove - removes the first occurance of an element
+ 
+#TIPS AND TRICKS
+
+
+# zeros = [0]*10
+# print(zeros)
+
+#adding two lists 
+# list1 = [1,5,6,6,8]
+# list2 = [34,54,53,43]
+# print (list1 + list2)
+
+# #slicing a list 
+# nums = 23,43,6,53,65,70
+
+# #get the maximum value in a list 
+# max(nums)
+
+# #get the minimum value
+# min(nums)
+
+# # creating lists
+# nums = [] # empty
+# for i in range (10):
+#     nums.append(i)
+#     for i in range (len(nums)):
+#         print(nums[i])
+
+nums = []
+for num in range(20):
+     nums.append(nums)
+#create alist of even numbers
+even_nums = []
+for num in range(20):
+    if (num % 2 == 0 ):
+        even_nums.append (num)
+for i in range (len(even_nums)):
+    print(even_nums[i])  
+          
+
+

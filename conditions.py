@@ -1,8 +1,8 @@
 x = eval (input("enter x"))
-if x <60 :
+if x <50 :
  print("wrong input")
 else : 
-   if x  >100 :
+   if x  >50 :
       x = x/2
       print(x) 
    else :
